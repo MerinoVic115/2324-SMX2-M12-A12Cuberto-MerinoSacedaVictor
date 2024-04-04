@@ -1,0 +1,18 @@
+.primertitulo{
+    color: rgb(101, 252, 201);
+    font-size: 47px;
+    margin-left: 5%;
+    font-family: monospace;
+}
+
+h4 {
+    margin-left: 5%;
+}
+
+.reddit-mono {
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  
