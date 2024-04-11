@@ -1,18 +1,119 @@
-.primertitulo{
-    color: rgb(101, 252, 201);
-    font-size: 47px;
-    margin-left: 5%;
-    font-family: monospace;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+ 
+.encabezado{
+    border-width:4px;
+    margin: 1px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "Roboto", sans-serif;
+}
+ 
+.cajacomunista{
+    border-width:4px;
+    margin: 1px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "Roboto", sans-serif;
+}
+ 
+.pie{
+    border-width:4px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+}
+ 
+.lineainheader{
+    border-width:4px;
+    width: 100%;
+    margin: 5px;
+}
+ 
+.lineaizq{
+    border-width:4px;
+    width: 50%;
+    margin: 5px;  
+}
+ 
+.lineader{
+    border-width:4px;
+    width: 50%;
+    margin: 5px;
+}
+ 
+.cajaSup{
+    border-width:4px;
+    margin: 1px;
+    width: 100%;
+}
+ 
+.cuadradoFooter{
+    border-width:4px;
+    margin: 5px;
+    width: calc(25% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+ 
+.columnas{
+    text-align: center;
+}
+ 
+.filas:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+ul{
+    list-style: none;
+    text-align: left;
+}
+ 
+h4{
+    text-align: left;
 }
 
-h4 {
-    margin-left: 5%;
+img{
+    width: 300px;
+    height: 300px;
 }
 
-.reddit-mono {
-    font-family: "Reddit Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+footer{
+    background-color: rgb(0, 0, 0);
+}
 
-  
+ul{
+    color: rgb(255, 255, 255);
+}
+
+#titulofooter{
+   color: rgb(255, 255, 255); 
+}
+
+h1{
+    color: rgb(3, 135, 135);
+    font-family: sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h2{
+    font-size: 40px;
+    color: grey;
+}
+
+.wrapper{
+    width: 40vw;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1266px){
+    /* Cambia el centrado de la pantalla para que ocupe todo el grande automáticamente. */
+    .body, .footer {
+        width: 100%; }}
